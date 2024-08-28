@@ -1,0 +1,53 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindTIFF.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/SelectLibraryConfigurations.cmake
+C:/Users/yasmine/vcpkg/installed/x64-windows/share/eigen3/Eigen3Config.cmake
+C:/Users/yasmine/vcpkg/installed/x64-windows/share/eigen3/Eigen3ConfigVersion.cmake
+C:/Users/yasmine/vcpkg/installed/x64-windows/share/eigen3/Eigen3Targets.cmake
+C:/Users/yasmine/vcpkg/installed/x64-windows/share/opencv/OpenCVConfig-version.cmake
+C:/Users/yasmine/vcpkg/installed/x64-windows/share/opencv/OpenCVConfig.cmake
+C:/Users/yasmine/vcpkg/installed/x64-windows/share/opencv/OpenCVModules-debug.cmake
+C:/Users/yasmine/vcpkg/installed/x64-windows/share/opencv/OpenCVModules-release.cmake
+C:/Users/yasmine/vcpkg/installed/x64-windows/share/opencv/OpenCVModules.cmake
+C:/Users/yasmine/vcpkg/installed/x64-windows/share/protobuf/protobuf-config-version.cmake
+C:/Users/yasmine/vcpkg/installed/x64-windows/share/protobuf/protobuf-config.cmake
+C:/Users/yasmine/vcpkg/installed/x64-windows/share/protobuf/protobuf-module.cmake
+C:/Users/yasmine/vcpkg/installed/x64-windows/share/protobuf/protobuf-options.cmake
+C:/Users/yasmine/vcpkg/installed/x64-windows/share/protobuf/protobuf-targets-debug.cmake
+C:/Users/yasmine/vcpkg/installed/x64-windows/share/protobuf/protobuf-targets-release.cmake
+C:/Users/yasmine/vcpkg/installed/x64-windows/share/protobuf/protobuf-targets.cmake
+C:/Users/yasmine/vcpkg/installed/x64-windows/share/quirc/quirc-config-debug.cmake
+C:/Users/yasmine/vcpkg/installed/x64-windows/share/quirc/quirc-config-release.cmake
+C:/Users/yasmine/vcpkg/installed/x64-windows/share/quirc/quirc-config.cmake
+E:/nSm/tempMatchAlgo/BBS/CMakeLists.txt
+E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/3.28.0-rc2/CMakeCCompiler.cmake
+E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/3.28.0-rc2/CMakeCXXCompiler.cmake
+E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/3.28.0-rc2/CMakeRCCompiler.cmake
+E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/3.28.0-rc2/CMakeSystem.cmake

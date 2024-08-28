@@ -1,0 +1,10 @@
+^E:\NSM\TEMPMATCHALGO\BBS\RELEASE\CMAKEFILES\924C17BC66CA50DDC3D1653B5B668982\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/nSm/tempMatchAlgo/BBS -BE:/nSm/tempMatchAlgo/BBS/release --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/nSm/tempMatchAlgo/BBS/release/Mine.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

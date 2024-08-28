@@ -1,0 +1,10 @@
+^E:\NSM\TEMPMATCHALGO\BBS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/nSm/tempMatchAlgo/BBS -BE:/nSm/tempMatchAlgo/BBS/release --check-stamp-file E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

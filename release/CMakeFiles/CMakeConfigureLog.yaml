@@ -1,0 +1,455 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+      La génération a démarré 15/07/2024 11:42:46.
+      
+      Projet "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\3.28.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" sur le noud 1 (cibles par défaut).
+      PrepareForBuild:
+        Création du répertoire "Debug\\".
+        Création du répertoire "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Création de "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+        Mise à jour de l'horodatage "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\3.28.0-rc2\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\yasmine\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\3.28.0-rc2\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' n'est pas reconnu en tant que commande interne
+        ou externe, un programme exécutable ou un fichier de commandes.
+        La commande "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\yasmine\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\3.28.0-rc2\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" s'est arrêtée avec le code 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\yasmine\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\3.28.0-rc2\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Suppression du fichier "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Mise à jour de l'horodatage "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Génération du projet "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\3.28.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" terminée (cibles par défaut).
+      
+      La génération a réussi.
+          0 Avertissement(s)
+          0 Erreur(s)
+      
+      Temps écoulé 00:00:04.61
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/3.28.0-rc2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+      La génération a démarré 15/07/2024 11:42:51.
+      
+      Projet "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\3.28.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" sur le noud 1 (cibles par défaut).
+      PrepareForBuild:
+        Création du répertoire "Debug\\".
+        Création du répertoire "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Création de "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+        Mise à jour de l'horodatage "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\3.28.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\yasmine\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\3.28.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' n'est pas reconnu en tant que commande interne
+        ou externe, un programme exécutable ou un fichier de commandes.
+        La commande "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\yasmine\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\3.28.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" s'est arrêtée avec le code 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\yasmine\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\3.28.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Suppression du fichier "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Mise à jour de l'horodatage "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Génération du projet "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\3.28.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" terminée (cibles par défaut).
+      
+      La génération a réussi.
+          0 Avertissement(s)
+          0 Erreur(s)
+      
+      Temps écoulé 00:00:03.76
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/3.28.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-o2zlrk"
+      binary: "E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-o2zlrk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-o2zlrk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5a075.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+        La génération a démarré 15/07/2024 11:42:56.
+        
+        Projet "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-o2zlrk\\cmTC_5a075.vcxproj" sur le noud 1 (cibles par défaut).
+        PrepareForBuild:
+          Création du répertoire "cmTC_5a075.dir\\Debug\\".
+          Création du répertoire "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-o2zlrk\\Debug\\".
+          Création du répertoire "cmTC_5a075.dir\\Debug\\cmTC_5a075.tlog\\".
+        InitializeBuildStatus:
+          Création de "cmTC_5a075.dir\\Debug\\cmTC_5a075.tlog\\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+          Mise à jour de l'horodatage "cmTC_5a075.dir\\Debug\\cmTC_5a075.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5a075.dir\\Debug\\\\" /Fd"cmTC_5a075.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version 19.37.32825 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits réservés.
+          CMakeCCompilerABI.c
+          cl /c /I"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5a075.dir\\Debug\\\\" /Fd"cmTC_5a075.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-o2zlrk\\Debug\\cmTC_5a075.exe" /INCREMENTAL /ILK:"cmTC_5a075.dir\\Debug\\cmTC_5a075.ilk" /NOLOGO /LIBPATH:"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-o2zlrk/Debug/cmTC_5a075.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-o2zlrk/Debug/cmTC_5a075.lib" /MACHINE:X64  /machine:x64 cmTC_5a075.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_5a075.vcxproj -> E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-o2zlrk\\Debug\\cmTC_5a075.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\yasmine\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-o2zlrk\\Debug\\cmTC_5a075.exe" "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\bin" "cmTC_5a075.dir\\Debug\\cmTC_5a075.tlog\\cmTC_5a075.write.1u.tlog" "cmTC_5a075.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' n'est pas reconnu en tant que commande interne
+          ou externe, un programme exécutable ou un fichier de commandes.
+          La commande "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\yasmine\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-o2zlrk\\Debug\\cmTC_5a075.exe" "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\bin" "cmTC_5a075.dir\\Debug\\cmTC_5a075.tlog\\cmTC_5a075.write.1u.tlog" "cmTC_5a075.dir\\Debug\\vcpkg.applocal.log"" s'est arrêtée avec le code 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\yasmine\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-o2zlrk\\Debug\\cmTC_5a075.exe" "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\bin" "cmTC_5a075.dir\\Debug\\cmTC_5a075.tlog\\cmTC_5a075.write.1u.tlog" "cmTC_5a075.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Suppression du fichier "cmTC_5a075.dir\\Debug\\cmTC_5a075.tlog\\unsuccessfulbuild".
+          Mise à jour de l'horodatage "cmTC_5a075.dir\\Debug\\cmTC_5a075.tlog\\cmTC_5a075.lastbuildstate".
+        Génération du projet "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-o2zlrk\\cmTC_5a075.vcxproj" terminée (cibles par défaut).
+        
+        La génération a réussi.
+            0 Avertissement(s)
+            0 Erreur(s)
+        
+        Temps écoulé 00:00:03.66
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-q14bfp"
+      binary: "E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-q14bfp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-q14bfp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dba09.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+        La génération a démarré 15/07/2024 11:43:01.
+        
+        Projet "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-q14bfp\\cmTC_dba09.vcxproj" sur le noud 1 (cibles par défaut).
+        PrepareForBuild:
+          Création du répertoire "cmTC_dba09.dir\\Debug\\".
+          Création du répertoire "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-q14bfp\\Debug\\".
+          Création du répertoire "cmTC_dba09.dir\\Debug\\cmTC_dba09.tlog\\".
+        InitializeBuildStatus:
+          Création de "cmTC_dba09.dir\\Debug\\cmTC_dba09.tlog\\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+          Mise à jour de l'horodatage "cmTC_dba09.dir\\Debug\\cmTC_dba09.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dba09.dir\\Debug\\\\" /Fd"cmTC_dba09.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Compilateur d'optimisation Microsoft (R) C/C++ version 19.37.32825 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits réservés.
+          CMakeCXXCompilerABI.cpp
+          cl /c /I"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dba09.dir\\Debug\\\\" /Fd"cmTC_dba09.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-q14bfp\\Debug\\cmTC_dba09.exe" /INCREMENTAL /ILK:"cmTC_dba09.dir\\Debug\\cmTC_dba09.ilk" /NOLOGO /LIBPATH:"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-q14bfp/Debug/cmTC_dba09.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-q14bfp/Debug/cmTC_dba09.lib" /MACHINE:X64  /machine:x64 cmTC_dba09.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_dba09.vcxproj -> E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-q14bfp\\Debug\\cmTC_dba09.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\yasmine\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-q14bfp\\Debug\\cmTC_dba09.exe" "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\bin" "cmTC_dba09.dir\\Debug\\cmTC_dba09.tlog\\cmTC_dba09.write.1u.tlog" "cmTC_dba09.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' n'est pas reconnu en tant que commande interne
+          ou externe, un programme exécutable ou un fichier de commandes.
+          La commande "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\yasmine\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-q14bfp\\Debug\\cmTC_dba09.exe" "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\bin" "cmTC_dba09.dir\\Debug\\cmTC_dba09.tlog\\cmTC_dba09.write.1u.tlog" "cmTC_dba09.dir\\Debug\\vcpkg.applocal.log"" s'est arrêtée avec le code 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\yasmine\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-q14bfp\\Debug\\cmTC_dba09.exe" "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\bin" "cmTC_dba09.dir\\Debug\\cmTC_dba09.tlog\\cmTC_dba09.write.1u.tlog" "cmTC_dba09.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Suppression du fichier "cmTC_dba09.dir\\Debug\\cmTC_dba09.tlog\\unsuccessfulbuild".
+          Mise à jour de l'horodatage "cmTC_dba09.dir\\Debug\\cmTC_dba09.tlog\\cmTC_dba09.lastbuildstate".
+        Génération du projet "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-q14bfp\\cmTC_dba09.vcxproj" terminée (cibles par défaut).
+        
+        La génération a réussi.
+            0 Avertissement(s)
+            0 Erreur(s)
+        
+        Temps écoulé 00:00:03.42
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Users/yasmine/vcpkg/installed/x64-windows/share/opencv/OpenCVModules.cmake:34 (find_dependency)"
+      - "C:/Users/yasmine/vcpkg/installed/x64-windows/share/opencv/OpenCVConfig.cmake:126 (include)"
+      - "CMakeLists.txt:18 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-y6xjrh"
+      binary: "E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-y6xjrh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-y6xjrh'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4333b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+        La génération a démarré 15/07/2024 11:48:02.
+        
+        Projet "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-y6xjrh\\cmTC_4333b.vcxproj" sur le noud 1 (cibles par défaut).
+        PrepareForBuild:
+          Création du répertoire "cmTC_4333b.dir\\Debug\\".
+          Création du répertoire "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-y6xjrh\\Debug\\".
+          Création du répertoire "cmTC_4333b.dir\\Debug\\cmTC_4333b.tlog\\".
+        InitializeBuildStatus:
+          Création de "cmTC_4333b.dir\\Debug\\cmTC_4333b.tlog\\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+          Mise à jour de l'horodatage "cmTC_4333b.dir\\Debug\\cmTC_4333b.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4333b.dir\\Debug\\\\" /Fd"cmTC_4333b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-y6xjrh\\src.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version 19.37.32825 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits réservés.
+          src.c
+          cl /c /I"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4333b.dir\\Debug\\\\" /Fd"cmTC_4333b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-y6xjrh\\src.c"
+        E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-y6xjrh\\src.c(1,10): fatal  error C1083: Impossible d'ouvrir le fichier include : 'pthread.h' : No such file or directory [E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-y6xjrh\\cmTC_4333b.vcxproj]
+        Génération du projet "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-y6xjrh\\cmTC_4333b.vcxproj" terminée (cibles par défaut) -- ÉCHEC.
+        
+        ÉCHEC de la build.
+        
+        "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-y6xjrh\\cmTC_4333b.vcxproj" (cible par défaut) (1) ->
+        (ClCompile cible) -> 
+          E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-y6xjrh\\src.c(1,10): fatal  error C1083: Impossible d'ouvrir le fichier include : 'pthread.h' : No such file or directory [E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-y6xjrh\\cmTC_4333b.vcxproj]
+        
+            0 Avertissement(s)
+            1 Erreur(s)
+        
+        Temps écoulé 00:00:01.65
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Users/yasmine/vcpkg/installed/x64-windows/share/opencv/OpenCVModules.cmake:34 (find_dependency)"
+      - "C:/Users/yasmine/vcpkg/installed/x64-windows/share/opencv/OpenCVConfig.cmake:126 (include)"
+      - "CMakeLists.txt:18 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-m10vla"
+      binary: "E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-m10vla"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-m10vla'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ec8e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+        La génération a démarré 15/07/2024 11:48:05.
+        
+        Projet "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-m10vla\\cmTC_ec8e0.vcxproj" sur le noud 1 (cibles par défaut).
+        PrepareForBuild:
+          Création du répertoire "cmTC_ec8e0.dir\\Debug\\".
+          Création du répertoire "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-m10vla\\Debug\\".
+          Création du répertoire "cmTC_ec8e0.dir\\Debug\\cmTC_ec8e0.tlog\\".
+        InitializeBuildStatus:
+          Création de "cmTC_ec8e0.dir\\Debug\\cmTC_ec8e0.tlog\\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+          Mise à jour de l'horodatage "cmTC_ec8e0.dir\\Debug\\cmTC_ec8e0.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ec8e0.dir\\Debug\\\\" /Fd"cmTC_ec8e0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-m10vla\\CheckFunctionExists.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version 19.37.32825 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits réservés.
+          CheckFunctionExists.c
+          cl /c /I"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ec8e0.dir\\Debug\\\\" /Fd"cmTC_ec8e0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-m10vla\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-m10vla\\Debug\\cmTC_ec8e0.exe" /INCREMENTAL /ILK:"cmTC_ec8e0.dir\\Debug\\cmTC_ec8e0.ilk" /NOLOGO /LIBPATH:"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\lib\\manual-link" pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-m10vla/Debug/cmTC_ec8e0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-m10vla/Debug/cmTC_ec8e0.lib" /MACHINE:X64  /machine:x64 cmTC_ec8e0.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthreads.lib' [E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-m10vla\\cmTC_ec8e0.vcxproj]
+        Génération du projet "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-m10vla\\cmTC_ec8e0.vcxproj" terminée (cibles par défaut) -- ÉCHEC.
+        
+        ÉCHEC de la build.
+        
+        "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-m10vla\\cmTC_ec8e0.vcxproj" (cible par défaut) (1) ->
+        (Link cible) -> 
+          LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthreads.lib' [E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-m10vla\\cmTC_ec8e0.vcxproj]
+        
+            0 Avertissement(s)
+            1 Erreur(s)
+        
+        Temps écoulé 00:00:01.55
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Users/yasmine/vcpkg/installed/x64-windows/share/opencv/OpenCVModules.cmake:34 (find_dependency)"
+      - "C:/Users/yasmine/vcpkg/installed/x64-windows/share/opencv/OpenCVConfig.cmake:126 (include)"
+      - "CMakeLists.txt:18 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-skugav"
+      binary: "E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-skugav"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-skugav'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_13448.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
+        La génération a démarré 15/07/2024 11:48:07.
+        
+        Projet "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-skugav\\cmTC_13448.vcxproj" sur le noud 1 (cibles par défaut).
+        PrepareForBuild:
+          Création du répertoire "cmTC_13448.dir\\Debug\\".
+          Création du répertoire "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-skugav\\Debug\\".
+          Création du répertoire "cmTC_13448.dir\\Debug\\cmTC_13448.tlog\\".
+        InitializeBuildStatus:
+          Création de "cmTC_13448.dir\\Debug\\cmTC_13448.tlog\\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+          Mise à jour de l'horodatage "cmTC_13448.dir\\Debug\\cmTC_13448.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13448.dir\\Debug\\\\" /Fd"cmTC_13448.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-skugav\\CheckFunctionExists.c"
+          Compilateur d'optimisation Microsoft (R) C/C++ version 19.37.32825 pour x64
+          Copyright (C) Microsoft Corporation. Tous droits réservés.
+          CheckFunctionExists.c
+          cl /c /I"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13448.dir\\Debug\\\\" /Fd"cmTC_13448.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-skugav\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-skugav\\Debug\\cmTC_13448.exe" /INCREMENTAL /ILK:"cmTC_13448.dir\\Debug\\cmTC_13448.ilk" /NOLOGO /LIBPATH:"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\lib\\manual-link" pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\yasmine\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-skugav/Debug/cmTC_13448.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/nSm/tempMatchAlgo/BBS/release/CMakeFiles/CMakeScratch/TryCompile-skugav/Debug/cmTC_13448.lib" /MACHINE:X64  /machine:x64 cmTC_13448.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthread.lib' [E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-skugav\\cmTC_13448.vcxproj]
+        Génération du projet "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-skugav\\cmTC_13448.vcxproj" terminée (cibles par défaut) -- ÉCHEC.
+        
+        ÉCHEC de la build.
+        
+        "E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-skugav\\cmTC_13448.vcxproj" (cible par défaut) (1) ->
+        (Link cible) -> 
+          LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'pthread.lib' [E:\\nSm\\tempMatchAlgo\\BBS\\release\\CMakeFiles\\CMakeScratch\\TryCompile-skugav\\cmTC_13448.vcxproj]
+        
+            0 Avertissement(s)
+            1 Erreur(s)
+        
+        Temps écoulé 00:00:01.48
+        
+      exitCode: 1
+...
