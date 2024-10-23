@@ -67,20 +67,7 @@ void BBS::perform(){
 
     locateMatch();
 
-    interpolate();
-
-    // ofstream output(format("../../results/OUTPUT%d.csv",'test'));
-	// 	for (int i = 0; i < (image.cols-templateImg.cols)/patchSize+1; i++)
-	// 	{
-	// 		for (int j = 0; j < (image.rows-templateImg.rows)/patchSize+1; j++)
-	// 		{
-	// 			output << Bbs[i][j] << ",";
-	// 		}
-	// 		output << endl;
-	// 	}
-	// 	output.close();
-
-    // std::cout<<"finished bbs"<<std::endl;
+    
 
     
 
@@ -88,17 +75,7 @@ void BBS::perform(){
 
 
 void BBS::interpolate(){
-    // Mat map(image.cols-templateImg.cols+1,image.rows-templateImg.rows+1,CV_32FC1,Scalar(0.0));
-    // Mat b((image.cols-templateImg.cols)/patchSize+1,(image.rows-templateImg.rows)/patchSize+1,CV_32FC1,Scalar(0.0));
-    // this->map=map;
 
-    
-    // for(int i=0;i<(image.cols-templateImg.cols)/patchSize+1;i++){
-    //     for(int j=0;j<(image.rows-templateImg.rows)/patchSize+1;j++){
-    //         b.at<Vec3f>(i,j)[0]=Bbs[i][j];
-    //     }
-    // }
-    // cv::resize(b,map,map.size(), 0, 0, cv::INTER_LINEAR);
 
 }
 
@@ -213,27 +190,7 @@ for(int j=0;j<templateImg.rows/patchSize;j++){
                     }
                 }
 
-                //rgb
-                
-                // for (int i=0;i<indices.size();i++){
-                //     l=indices.at(i);
-                //     std::cout<< N<<"|"<<l<<endl;
-                //     for(int j=0;j<N;j++){
-                //         r=0;g=0;b=0;
-                //         for(int k=0;k<patchSize*patchSize;k++){
-                //             r+=pow(TMat.at<Vec3f>(k,j)[0]-IMat.at<Vec3f>(k,l)[0],2);
-                //             g+=pow(TMat.at<Vec3f>(k,j)[1]-IMat.at<Vec3f>(k,l)[1],2);
-                //             b+=pow(TMat.at<Vec3f>(k,j)[2]-IMat.at<Vec3f>(k,l)[2],2);
-                //         }
-                //         Drgb[w.at(i)][j]=(r+g+b);
-                        
-                //     }
-                // }
-                // indices.clear();
-                // w.clear();
 
-                
-                // Drgb=TMat
 
             }
 
@@ -248,20 +205,12 @@ for(int j=0;j<templateImg.rows/patchSize;j++){
                     Drgb[i-templateImg.cols/patchSize]=DrgbPre[i];
                 }
 
-                // for(int i=1;i<templateImg.rows/patchSize;i++){
-                //     for(int j=0;j<templateImg.cols/patchSize;j++)
-                //     {Drgb[(i-1)*templateImg.cols/patchSize+j]=DrgbPre[(i)*templateImg.cols/patchSize+j];}
-                // }
-                
+
                 
                  for(int j=0;j<templateImg.cols/patchSize;j++)
                 {
                     // indices.push_back(IndMat[j][row]);
                     for (int i=0;i<N;i++){
-                        //  std::cout<<"test"<<(templateImg.cols/patchSize-1)*templateImg.cols/patchSize+j<<"|"<<N<<endl;
-                        // std::cout<<"computing bbs"<<row<<"|"<<col<<(image.rows-templateImg.rows)/patchSize+1<<"|"<<(image.cols-templateImg.cols)/patchSize+1<<std::endl;
-                        // std::cout<<IndMat.size()<<IndMat[0].size()<<std::endl;
-                        //  std::cout<<row+templateImg.rows/patchSize<<std::endl;
                         r=0;g=0;b=0;
                         for(int k=0;k<patchSize*patchSize;k++){
                             r+=pow((TMat.at<Vec3f>(k,i)[0]-IMat.at<Vec3f>(k,IndMat[j][row+templateImg.rows/patchSize-1])[0])*Gaussian[k],2);
@@ -282,14 +231,7 @@ for(int j=0;j<templateImg.rows/patchSize;j++){
                 
 
 
-                // for(int j=col;j<col+templateImg.cols/patchSize;j++)
-                // {
-                //     for(int i=row-1;i<row;i++){
-                
-                // Drgb[IndMat[j][i]]=DrgbPre[]
-
-                //     }
-                // }
+     
             }
 
             else if (row==0 && col!=0){
@@ -355,15 +297,7 @@ for(int j=0;j<templateImg.rows/patchSize;j++){
                 r=0;g=0;b=0;
                 // if(row==100 && col==100)std::cout<<"h nl"<<endl;
                   for(int k=0;k<patchSize*patchSize;k++){
-                    // if(row==100 && col==100){
-                        
-                    //     // std::cout<<pow((TMat.at<Vec3f>(k,i)[0]-IMat.at<Vec3f>(k,IndMat[col+templateImg.cols/patchSize-1][row+templateImg.rows/patchSize-1])[0])*Gaussian[k],2)<<endl;
-                    //     // std::cout<<pow((TMat.at<Vec3f>(k,i)[1]-IMat.at<Vec3f>(k,IndMat[col+templateImg.cols/patchSize-1][row+templateImg.rows/patchSize-1])[1])*Gaussian[k],2)<<endl;
-                    //     // std::cout<<pow((TMat.at<Vec3f>(k,i)[2]-IMat.at<Vec3f>(k,IndMat[col+templateImg.cols/patchSize-1][row+templateImg.rows/patchSize-1])[2])*Gaussian[k],2)<<endl;
-                    //     cout<<TMat.at<Vec3f>(k,i)[0]-IMat.at<Vec3f>(k,IndMat[col+templateImg.cols/patchSize-1][row+templateImg.rows/patchSize-1])[0]<<endl;
-                    //     cout<<(pow((TMat.at<Vec3f>(k,i)[0]-IMat.at<Vec3f>(k,IndMat[col+templateImg.cols/patchSize-1][row+templateImg.rows/patchSize-1])[0])*Gaussian[k],2)==0)<<endl;
-                    //     // std::cout<<"test "<<r<<" , "<<g<<" , "<<b<<endl;
-                    // }
+                
                             r+=pow((TMat.at<Vec3f>(k,i)[0]-IMat.at<Vec3f>(k,IndMat[col+templateImg.cols/patchSize-1][row+templateImg.rows/patchSize-1])[0])*Gaussian[k],2);
                             g+=pow((TMat.at<Vec3f>(k,i)[1]-IMat.at<Vec3f>(k,IndMat[col+templateImg.cols/patchSize-1][row+templateImg.rows/patchSize-1])[1])*Gaussian[k],2);
                             b+=pow((TMat.at<Vec3f>(k,i)[2]-IMat.at<Vec3f>(k,IndMat[col+templateImg.cols/patchSize-1][row+templateImg.rows/patchSize-1])[2])*Gaussian[k],2);
@@ -372,11 +306,7 @@ for(int j=0;j<templateImg.rows/patchSize;j++){
                       
             }
                      Drgb[N-1][i]=r+g+b;
-                    //  if (row==38 && col==58){
-                    //             cout<<r<<"|"<<g<<"|"<<b<<endl;
-                    //         }
-                    //  if (row==100 && col==100)
-                            // cout<<Drgb[N-1][i]<<endl;
+      
 
 
             }}
@@ -400,10 +330,7 @@ for(int j=0;j<templateImg.rows/patchSize;j++){
                 }
             }
 
-            // for(int i=0;i<N;i++){
-            //     for(int j=0;j<N;j++){
-            //         // std::cout<<D[i][j]<<"|"<<D[0][0]<<std::endl;
-            //         Dreversed[j][i]=D[i][j];}}
+
 
             vector<float>min1,min2;
             vector<int>min3,min4;
@@ -452,65 +379,16 @@ for(int j=0;j<templateImg.rows/patchSize;j++){
 
             
 
-                // auto m1=min_element(D[i].begin(),D[i].end());
-                // std::cout<<(float)m1<<std::endl;
-                // min2[i]=(distance(Dreversed[i].begin(),min_element(Dreversed[i].begin(),Dreversed[i].end())));
-                 
-
-
-
-            // did not take into consideration the case where a pixel can have the same distance to another!!???
-
-            // float a=77777777777777777;
-            // int k=0;
-            // for(int i=0;i<N;i++){
-            //     a=77777777777777777;
-            //     for (int j=0;j<N;j++){
-            //         if( D[i][j]<a)
-            //             {a=D[i][j];
-            //             k=j;
-            //             }
-            //     }
-            //     min3[i]=k;
-            //     // std::cout<<"i="<<i<<"j="<<k<<",a="<<a<<endl;
-            // }
-
-            //  a=77777777777777777;
-
-            //    for(int i=0;i<N;i++){
-            //     a=77777777777777777;
-            //     for (int j=0;j<N;j++){
-            //         if( Dreversed[i][j]<a)
-            //             {a=Dreversed[i][j];
-            //             k=j;
-            //             }
-            //     }
-            //     min4[i]=k;
-            //     // std::cout<<"i="<<i<<"j="<<k<<",a="<<a<<endl;
-            // }
-
-
-            // int count2=0;
-
-            // for(int i=0;i<N;i++){
-            //     // std::cout<<i<<"|"<<min2[min1[i]]<<"|"<<min1[i]<<"|"<<min3[i]<<std::endl;
-            //     if(min4[min3[i]]==i){
-            //         count++;
-            //     }
-            // }
+           
 
             min1.clear();
             min2.clear();
 
-            // min3.clear();
-            // min4.clear();
 
 
             Bbs[col][row]=(float)count/N;
 
 
-            // if (count!=count2)
-            // std::cout<<count<<" | "<<count2<<endl;
             
 
             
